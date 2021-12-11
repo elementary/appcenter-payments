@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "nuxi dev",
+    "build": "nuxi build"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.19.5",
+    "nuxt3": "latest"
+  }
+}

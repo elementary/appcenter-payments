@@ -1,0 +1,28 @@
+name = "appcenter-payments-dev"
+type = "javascript"
+
+account_id = "15f2ecfa401ced79d6e9c732fd8b0cc2"
+workers_dev = true
+
+compatibility_date = "2021-12-11"
+
+[vars]
+STRIPE_SECRET_KEY = "sk_test_abc1234"
+MAILGUN_USERNAME = "test"
+MAILGUN_API_KEY = "test"
+
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = "NITRO_PRESET=cloudflare npm run build"
+
+[build.upload]
+format = "service-worker"
+
+[env.production]
+name = "appcenter-payments"
+
+zone_id = "db8481f61b9954cace2b4e59e4235042"
+route = "charlie.developer.elementary.io/*"
