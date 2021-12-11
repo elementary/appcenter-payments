@@ -27,5 +27,6 @@ name = "appcenter-payments"
 zone_id = "db8481f61b9954cace2b4e59e4235042"
 routes = [
   "beta.developer.elementary.io/monetize",
-  "beta.developer.elementary.io/api/payment"
+  "beta.developer.elementary.io/api/payment",
+  "beta.developer.elementary.io/api/payment/*"
 ]

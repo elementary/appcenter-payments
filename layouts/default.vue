@@ -1,5 +1,5 @@
 <template>
-  <div class="flag direction-row">
+  <div class="flex flex-col min-h-screen">
     <nav
       class="bg-developer-700 flex flex-0 justify-between overflow-x-auto px-5 h-12"
     >
@@ -40,8 +40,8 @@
       </ul>
     </nav>
 
-    <div class="flex-grow flex-shrink-0 min-h-full">
-      <nuxt-child />
+    <div class="flex-grow flex-shrink-0">
+      <slot />
     </div>
 
     <footer class="flex flex-0 bg-silver-200">
