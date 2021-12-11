@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@cloudflare/wrangler": "^1.19.5",
-    "nuxt3": "latest"
+    "nuxt-windicss": "^2.1.1",
+    "nuxt3": "3.0.0-27319101.3e82f0f"
   }
 }
